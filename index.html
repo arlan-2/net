@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Все о Netflix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #e50914;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 15px;
+        }
+        section {
+            margin-bottom: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #e50914;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (min-width: 600px) {
+            nav ul li {
+                display: inline-block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Все о Netflix</h1>
+        <nav>
+            <ul>
+                <li><a href="#news">Новости</a></li>
+                <li><a href="#top-series">Топ сериалы</a></li>
+                <li><a href="#top-movies">Топ фильмы</a></li>
+                <li><a href="#recommendations">Рекомендации</a></li>
+                <li><a href="#discussions">Обсуждения</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="news">
+            <h2>Последние новости Netflix</h2>
+            <p>Здесь будут размещены самые свежие новости о Netflix.</p>
+        </section>
+
+        <section id="top-series">
+            <h2>Топ 10 сериалов на Netflix</h2>
+            <ul>
+                <li>1. Сериал 1</li>
+                <li>2. Сериал 2</li>
+                <li>3. Сериал 3</li>
+                <!-- Добавь больше сериалов -->
+            </ul>
+        </section>
+
+        <section id="top-movies">
+            <h2>Топ 10 фильмов на Netflix</h2>
+            <ul>
+                <li>1. Фильм 1</li>
+                <li>2. Фильм 2</li>
+                <li>3. Фильм 3</li>
+                <!-- Добавь больше фильмов -->
+            </ul>
+        </section>
+
+        <section id="recommendations">
+            <h2>Что посмотреть сегодня?</h2>
+            <p>Персонализированные рекомендации на основе ваших предпочтений.</p>
+        </section>
+
+        <section id="discussions">
+            <h2>Обсуждения и рецензии</h2>
+            <p>Оставьте свой отзыв или комментарий.</p>
+        </section>
+
+        <section id="contacts">
+            <h2>Связаться с нами</h2>
+            <p>Email: info@netflixsite.com</p>
+            <form>
+                <label for="message">Ваше сообщение:</label><br>
+                <textarea id="message" rows="4" style="width: 100%;"></textarea><br>
+                <button type="submit" style="background-color: #e50914; color: white; padding: 10px; border: none; border-radius: 5px;">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Все о Netflix</p>
+    </footer>
+</body>
+</html>
